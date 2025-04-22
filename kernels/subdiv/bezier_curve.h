@@ -135,7 +135,7 @@ namespace embree
       }
       
       friend embree_ostream operator<<(embree_ostream cout, const QuadraticBezierCurve& a) {
-        return cout << "QuadraticBezierCurve ( (" << a.u.lower << ", " << a.u.upper << "), " << a.v0 << ", " << a.v1 << ", " << a.v2 << ")";
+        return cout << "QuadraticBezierCurve ( (" << 0.0 << ", " << 0.0 << "), " << a.v0 << ", " << a.v1 << ", " << a.v2 << ")";
       }
     };
   
